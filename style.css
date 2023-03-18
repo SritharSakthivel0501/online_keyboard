@@ -1,0 +1,57 @@
+.Space {
+    padding: 31px 151px 24px 150px;
+}
+.boks {
+    margin: 10px 10px 10px 11px;
+    height: 140px;
+    width: 880px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.main {
+    border-radius: 10px;
+    background-color: rgb(236, 232, 232);
+    margin-top: 100px;
+    margin-left: 120px;
+    box-shadow: 0px 5px 15px rgb(3 3 3);
+    height: 500px;
+    width: 950px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+button{
+    box-shadow: 0px 0px 5px rgb(3 3 3);
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(32, 31, 31);
+}
+button:hover{
+    cursor: pointer;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(212, 245, 234),
+        0 0 82px rgb(215, 241, 233),
+        0 0 92px rgb(207, 253, 238),
+        0 0 102px #0fa,
+        0 0 151px rgb(200, 247, 231);
+    animation: flicker 1.5s infinite alternate;
+}
+
+.btnsimbul{
+    padding: 20px 76px 20px 76px;
+}
+.upper{
+    text-transform: uppercase;
+}
+.Enter{
+    padding: 20px 42px 20px 42px;
+}
+body{
+    background-image: url("1000_F_331126684_Znum7UdZyb5o8z2qRE3KEu7QcHNs2mMS.jpg");
+}
+
