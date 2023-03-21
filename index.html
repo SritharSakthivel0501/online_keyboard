@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,85 +9,216 @@
     <script src="https://kit.fontawesome.com/17b4cb4bcc.js" crossorigin="anonymous"></script>
     <title>keyBoard</title>
 </head>
+
 <body>
+
     <div class="main">
         <textarea id="result" class="boks" placeholder="Start typing"></textarea>
-        <div>
-            <button>~</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>0</button>
-            <button>-</button>
-            <button>+</button>
-            <button id="Backspoace">Backspoace</button>
+
+        <div class="english">
+            <div class="divone">
+                <button>~</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>0</button>
+                <button>-</button>
+                <button>+</button>
+                <button id="Backspoace">Backspace</button>
+            </div>
+            <div class="specialchar">
+                <button>~</button>
+                <button>!</button>
+                <button>@</button>
+                <button>#</button>
+                <button>$</button>
+                <button>%</button>
+                <button>^</button>
+                <button>&</button>
+                <button>*</button>
+                <button>(</button>
+                <button>)</button>
+                <button>-</button>
+                <button>+</button>
+                <button id="Backspoace">Backspoace</button>
+            </div>
+            <div>
+                <button>q</button>
+                <button>w</button>
+                <button>e</button>
+                <button>r</button>
+                <button>t</button>
+                <button>y</button>
+                <button>u</button>
+                <button>i</button>
+                <button>o</button>
+                <button>p</button>
+                <button>[</button>
+                <button>]</button>
+                <button class="btnsimbul">\</button>
+            </div>
+            <div>
+                <button id="Capslock">Capslock</button>
+                <button>a</button>
+                <button>s</button>
+                <button>d</button>
+                <button>f</button>
+                <button>g</button>
+                <button>h</button>
+                <button>j</button>
+                <button>k</button>
+                <button>l</button>
+                <button>;</button>
+                <button>'</button>
+                <button id="Enter" class="divtwoEnter">Enter</button>
+            </div>
+            <div>
+                <button id="Shift">Shift</button>
+                <button>z</button>
+                <button>x</button>
+                <button>c</button>
+                <button>v</button>
+                <button>b</button>
+                <button>n</button>
+                <button>m</button>
+                <button><</button>
+                <button>></button>
+                <button>,</button>
+                <button>.</button>
+                <button>/</button>
+                <button><i class="fa-solid fa-arrow-up"></i></button>
+            </div>
+            <div>
+                <button id="Fn">Fn</button>
+                <button id="Ctrl">Ctrl</button>
+                <button id="Alt">Alt</button>
+                <button id="Space" class="Space"></button>
+                <button>AltGr</button>
+                <button>PrtSc</button>
+                <button id="tamil">தமிழ்</button>
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+                <button><i class="fa-solid fa-arrow-down"></i></button>
+                <button><i class="fa-solid fa-arrow-left"></i></button>
+            </div>
         </div>
-        <div>
-            <button>q</button>
-            <button>w</button>
-            <button>e</button>
-            <button>r</button>
-            <button>t</button>
-            <button>y</button>
-            <button>u</button>
-            <button>i</button>
-            <button>o</button>
-            <button>p</button>
-            <button>[</button>
-            <button>]</button>
-            <button class="btnsimbul">\</button>
-        </div>
-        <div>
-            <button id="Capslock">Capslock</button>
-            <button>a</button>
-            <button>s</button>
-            <button>d</button>
-            <button>f</button>
-            <button>g</button>
-            <button>h</button>
-            <button>j</button>
-            <button>k</button>
-            <button>l</button>
-            <button>;</button>
-            <button>'</button>
-            <button id="Enter" class="Enter">Enter</button>
-        </div>
-        <div>
-            <button>Shift</button>
-            <button>z</button>
-            <button>x</button>
-            <button>c</button>
-            <button>v</button>
-            <button>b</button>
-            <button>n</button>
-            <button>m</button>
-            <button><</button>
-            <button>></button>
-            <button>,</button>
-            <button>.</button>
-            <button>/</button>
-            <button><i class="fa-solid fa-arrow-up"></i></button>
-        </div>
-        <div>
-            <button id="Fn">Fn</button>
-            <button id="Ctrl">Ctrl</button>
-            <button id="Alt">Alt</button>
-            <button id="Space" class="Space"></button>
-            <button>AltGr</button>
-            <button>PrtSc</button>
-            <button>Ctrl</button>
-            <button><i class="fa-solid fa-arrow-right"></i></button>
-            <button><i class="fa-solid fa-arrow-down"></i></button>
-            <button><i class="fa-solid fa-arrow-left"></i></button>
+
     </div>
+
+    <div id="tamildiv" class="main1">
+        <textarea id="tamiltext" class="boks" placeholder="Start typing"></textarea>
+
+        <div class="tamilkey">
+            <div class="divone">
+                <button class="tamilbtn">~</button>
+                <button class="tamilbtn">1</button>
+                <button class="tamilbtn">2</button>
+                <button class="tamilbtn">3</button>
+                <button class="tamilbtn">4</button>
+                <button class="tamilbtn">5</button>
+                <button class="tamilbtn">6</button>
+                <button class="tamilbtn">7</button>
+                <button class="tamilbtn">8</button>
+                <button class="tamilbtn">9</button>
+                <button class="tamilbtn">0</button>
+                <button class="tamilbtn">-</button>
+                <button class="tamilbtn">+</button>
+                <button id="tamilBackspoace">Backspoace</button>
+            </div>
+            <div class="specialchar">
+                <button class="tamilbtn">~</button>
+                <button class="tamilbtn">!</button>
+                <button class="tamilbtn">@</button>
+                <button class="tamilbtn">#</button>
+                <button class="tamilbtn">$</button>
+                <button class="tamilbtn">%</button>
+                <button class="tamilbtn">^</button>
+                <button class="tamilbtn">&</button>
+                <button class="tamilbtn">*</button>
+                <button class="tamilbtn">(</button>
+                <button class="tamilbtn">)</button>
+                <button class="tamilbtn">-</button>
+                <button class="tamilbtn">+</button>
+                <button id="Backspoace">Backspoace</button>
+            </div>
+            <div>
+                <button class="tamilbtn">ணு</button>
+                <button class="tamilbtn">று</button>
+                <button class="tamilbtn">நு</button>
+                <button class="tamilbtn">சு</button>
+                <button class="tamilbtn">கூ</button>
+                <button class="tamilbtn">லு</button>
+                <button class="tamilbtn">ரு</button>
+                <button class="tamilbtn">ஐ</button>
+                <button class="tamilbtn">டீ</button>
+                <button class="tamilbtn">ீ</button>
+                <button class="tamilbtn">ி</button>
+                <button class="tamilbtn">ா</button>
+                <button class="btnsimbul">\</button>
+            </div>
+            <div>
+                <button id="Capslock">Capslock</button>
+                <button class="tamilbtn">ு</button>
+                <button class="tamilbtn">ளு</button>
+                <button class="tamilbtn">னு</button>
+                <button class="tamilbtn">கு</button>
+                <button class="tamilbtn">ழு</button>
+                <button class="tamilbtn">ழ</button>
+                <button class="tamilbtn">து</button>
+                <button class="tamilbtn">மு</button>
+                <button class="tamilbtn">டு</button>
+                <button class="tamilbtn">ஞ</button>
+                <button class="tamilbtn">ூ</button>
+                <button id="tamilEnter" class="Enter">Enter</button>
+            </div>
+            <div>
+                <button id="Shift">Shift</button>
+                <button class="tamilbtn">ஓ</button>
+                <button class="tamilbtn">ஊ</button>
+                <button class="tamilbtn">ஏ</button>
+                <button class="tamilbtn">சூ</button>
+                <button class="tamilbtn">ஆ</button>
+                <button class="tamilbtn">ஈ</button>
+                <button class="tamilbtn">ெ</button>
+                <button class="tamilbtn">ே</button>
+                        <button class="tamilbtn">></button>
+                        <button class="tamilbtn">,</button>
+                        <button class="tamilbtn">.</button>
+                        <button class="tamilbtn">/</button>
+                        <button><i class="fa-solid fa-arrow-up"></i></button>
+            </div>
+            <div>
+                <button class="tamilbtn" id="Fn">ை</button>
+                <button class="tamilbtn" id="Ctrl">ொ</button>
+                <button class="tamilbtn" id="Alt">ோ</button>
+                <button id="Space" class="Space"></button>
+                <button class="tamilbtn">ௌ</button>
+                <button class="tamilbtn">்</button>
+                <button id="eng">eng</button>
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+                <button><i class="fa-solid fa-arrow-down"></i></button>
+                <button><i class="fa-solid fa-arrow-left"></i></button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
 
 
     <script src="app.js"></script>
 </body>
+
 </html>

@@ -8,12 +8,25 @@
     border: 2px solid rgb(0, 0, 0);
 }
 .main {
+    display: block;
     border-radius: 10px;
     background-color: rgb(236, 232, 232);
     margin-top: 100px;
     margin-left: 120px;
     box-shadow: 0px 5px 15px rgb(3 3 3);
     height: 500px;
+    width: 950px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+.main1 {
+    display: none;
+    border-radius: 10px;
+    background-color: rgb(236, 232, 232);
+    margin-top: 100px;
+    margin-left: 120px;
+    box-shadow: 0px 5px 15px rgb(3 3 3);
+    height: 535px;
     width: 950px;
     border: 2px solid rgb(0, 0, 0);
     text-align: center;
@@ -53,5 +66,16 @@ button:hover{
 }
 body{
     background-image: url("1000_F_331126684_Znum7UdZyb5o8z2qRE3KEu7QcHNs2mMS.jpg");
+}
+
+.specialchar {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+.none {
+    display: none;
 }
 
